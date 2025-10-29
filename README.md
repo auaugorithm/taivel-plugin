@@ -2,6 +2,21 @@
 
 An iOS App Clip that allows users to send location data to a Convex.dev backend via REST API. Location permission is requested only on first use.
 
+## 🚀 Quick Start
+
+**Want to run this on your iPhone right now?**
+
+👉 **[LOCAL_DEVELOPMENT.md](LOCAL_DEVELOPMENT.md)** - Complete guide to run on your physical device
+
+**Quick summary:**
+1. Create Xcode project and add App Clip target
+2. Copy source files from `TaivelAppClip/` folder
+3. Deploy Convex backend: `cd convex-backend && npm run dev`
+4. Connect iPhone, build & run in Xcode
+5. Test the App Clip!
+
+---
+
 ## Features
 
 - **Simple UI**: Single button to send location request
@@ -255,10 +270,12 @@ The app sends POST requests to Convex with this structure:
 
 ### Project Documentation
 
+- **[LOCAL_DEVELOPMENT.md](LOCAL_DEVELOPMENT.md)** - 🔥 Run on your iPhone - Complete local development guide
 - **[QUICKSTART.md](QUICKSTART.md)** - Get started in 5 minutes
 - **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Complete step-by-step setup instructions
 - **[TESTING.md](TESTING.md)** - Comprehensive testing guide with examples
 - **[CONFIGURATION.md](CONFIGURATION.md)** - Secure configuration and API key management
+- **[CONFIGURATION_VERIFICATION.md](CONFIGURATION_VERIFICATION.md)** - Deployment URL verification
 - **[CI_CD.md](CI_CD.md)** - CI/CD workflow setup and deployment automation
 
 ### External References
