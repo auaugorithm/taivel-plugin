@@ -8,10 +8,10 @@
 import Foundation
 
 struct ConvexConfig {
-    /// Your Convex deployment URL
-    /// Get this from your Convex dashboard at https://dashboard.convex.dev
-    /// Format: https://your-deployment-name.convex.cloud
-    static let deploymentURL = "https://your-deployment.convex.cloud"
+    /// Convex deployment URL
+    /// Deployment: utmost-clam-977
+    /// Dashboard: https://dashboard.convex.dev
+    static let deploymentURL = "https://utmost-clam-977.convex.cloud"
 
     /// The mutation path for sending location data
     /// This should match your Convex function path

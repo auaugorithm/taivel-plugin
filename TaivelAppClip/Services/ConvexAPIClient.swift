@@ -36,8 +36,8 @@ class ConvexAPIClient {
 
     static let shared = ConvexAPIClient()
 
-    // TODO: Replace with your actual Convex deployment URL
-    private let baseURL = "https://your-deployment.convex.cloud"
+    // Convex deployment URL - configured for production
+    private let baseURL = "https://utmost-clam-977.convex.cloud"
     private let endpoint = "/api/mutation"
     private let timeout: TimeInterval = 3.0
 
