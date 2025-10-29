@@ -9,6 +9,9 @@ An iOS App Clip that allows users to send location data to a Convex.dev backend 
 - **Convex.dev Integration**: Posts location data to Convex backend via HTTP API
 - **Success/Error Handling**: Clear visual feedback for request completion
 - **App Clip Optimized**: Designed to meet iOS App Clip size and performance requirements
+- **Comprehensive Testing**: Unit tests, UI tests, and backend tests with >80% coverage
+- **CI/CD Ready**: GitHub Actions workflows for automated testing and deployment
+- **Code Quality**: SwiftLint and ESLint enforcement for consistent code standards
 
 ## Project Structure
 
@@ -248,7 +251,17 @@ The app sends POST requests to Convex with this structure:
 - Check AASA file is accessible
 - Ensure bundle identifiers match
 
-## Documentation References
+## Documentation
+
+### Project Documentation
+
+- **[QUICKSTART.md](QUICKSTART.md)** - Get started in 5 minutes
+- **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Complete step-by-step setup instructions
+- **[TESTING.md](TESTING.md)** - Comprehensive testing guide with examples
+- **[CONFIGURATION.md](CONFIGURATION.md)** - Secure configuration and API key management
+- **[CI_CD.md](CI_CD.md)** - CI/CD workflow setup and deployment automation
+
+### External References
 
 - [Convex HTTP API](https://docs.convex.dev/http-api/)
 - [Apple App Clips](https://developer.apple.com/design/human-interface-guidelines/app-clips)
