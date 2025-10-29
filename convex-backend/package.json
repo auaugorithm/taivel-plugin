@@ -1,0 +1,15 @@
+{
+  "name": "taivel-convex-backend",
+  "version": "1.0.0",
+  "description": "Convex backend for Taivel App Clip",
+  "scripts": {
+    "dev": "convex dev",
+    "deploy": "convex deploy"
+  },
+  "dependencies": {
+    "convex": "^1.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}

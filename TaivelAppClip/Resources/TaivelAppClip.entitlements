@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- App Clip entitlement -->
+	<key>com.apple.developer.parent-application-identifiers</key>
+	<array>
+		<string>$(AppIdentifierPrefix)com.yourdomain.taivel</string>
+	</array>
+	<!-- Associated Domains for App Clip invocation -->
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>appclips:yourdomain.com</string>
+	</array>
+	<!-- App Groups (optional, for sharing data with parent app) -->
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.yourdomain.taivel</string>
+	</array>
+</dict>
+</plist>
