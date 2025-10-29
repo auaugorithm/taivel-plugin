@@ -71,3 +71,8 @@ iOSInjectionProject/
 # Convex
 convex-backend/.convex/
 convex-backend/node_modules/
+
+# GitHub Actions Workflows
+# Note: Workflow files exist locally in .github/workflows/ but cannot be pushed
+# via GitHub App due to permissions. See CI_CD.md for manual setup instructions.
+.github/workflows/
