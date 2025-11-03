@@ -8,6 +8,10 @@ An iOS App Clip that allows users to send location data to a Convex.dev backend 
 
 👉 **[LOCAL_DEVELOPMENT.md](LOCAL_DEVELOPMENT.md)** - Complete guide to run on your physical device
 
+**Have an existing React Native app?**
+
+👉 **[REACT_NATIVE_INTEGRATION.md](REACT_NATIVE_INTEGRATION.md)** - Integrate this App Clip into your RN project
+
 **Quick summary:**
 1. Create Xcode project and add App Clip target
 2. Copy source files from `TaivelAppClip/` folder
@@ -271,6 +275,7 @@ The app sends POST requests to Convex with this structure:
 ### Project Documentation
 
 - **[LOCAL_DEVELOPMENT.md](LOCAL_DEVELOPMENT.md)** - 🔥 Run on your iPhone - Complete local development guide
+- **[REACT_NATIVE_INTEGRATION.md](REACT_NATIVE_INTEGRATION.md)** - ⚛️ React Native - Add to existing RN app
 - **[QUICKSTART.md](QUICKSTART.md)** - Get started in 5 minutes
 - **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Complete step-by-step setup instructions
 - **[TESTING.md](TESTING.md)** - Comprehensive testing guide with examples
