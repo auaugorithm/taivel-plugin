@@ -4,6 +4,10 @@ An iOS App Clip that allows users to send location data to a Convex.dev backend 
 
 ## 🚀 Quick Start
 
+**Want to build and run this project?**
+
+👉 **[BUILD.md](BUILD.md)** - 🔨 Complete build guide with automation scripts
+
 **Want to run this on your iPhone right now?**
 
 👉 **[LOCAL_DEVELOPMENT.md](LOCAL_DEVELOPMENT.md)** - Complete guide to run on your physical device
@@ -13,11 +17,12 @@ An iOS App Clip that allows users to send location data to a Convex.dev backend 
 👉 **[REACT_NATIVE_INTEGRATION.md](REACT_NATIVE_INTEGRATION.md)** - Integrate this App Clip into your RN project
 
 **Quick summary:**
-1. Create Xcode project and add App Clip target
-2. Copy source files from `TaivelAppClip/` folder
-3. Deploy Convex backend: `cd convex-backend && npm run dev`
-4. Connect iPhone, build & run in Xcode
-5. Test the App Clip!
+1. Validate project: `./validate-build.sh`
+2. Deploy backend: `cd convex-backend && ./dev.sh`
+3. Create Xcode project and add App Clip target
+4. Copy source files from `TaivelAppClip/` folder
+5. Connect iPhone, build & run in Xcode
+6. Test the App Clip!
 
 ---
 
@@ -274,6 +279,7 @@ The app sends POST requests to Convex with this structure:
 
 ### Project Documentation
 
+- **[BUILD.md](BUILD.md)** - 🔨 Build Guide - Automation scripts and deployment
 - **[LOCAL_DEVELOPMENT.md](LOCAL_DEVELOPMENT.md)** - 🔥 Run on your iPhone - Complete local development guide
 - **[REACT_NATIVE_INTEGRATION.md](REACT_NATIVE_INTEGRATION.md)** - ⚛️ React Native - Add to existing RN app
 - **[QUICKSTART.md](QUICKSTART.md)** - Get started in 5 minutes
